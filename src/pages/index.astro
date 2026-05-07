@@ -1,0 +1,442 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import BlogCard from '../components/BlogCard.astro';
+
+const clients = ['Willow', 'SOFICO', 'Aspire App', 'ZYGO', 'Valued'];
+
+const latestPosts = (await getCollection('blog', ({ data }) => data.status === 'published'))
+  .sort((a, b) => {
+    const dateA = a.data.published_at ?? new Date(0);
+    const dateB = b.data.published_at ?? new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 2);
+---
+
+<BaseLayout
+  title="Very Klear — Fractional marketing leadership for B2B tech"
+  description="Very Klear is fractional marketing leadership for B2B tech. Strategy and execution from the same person, not two separate hires. Product marketing depth where generalists fall short."
+>
+  <Nav currentPath="/" />
+
+  <main>
+
+    <!-- ─── HERO ─────────────────────────────────────────────────── -->
+    <section class="max-w-6xl mx-auto px-6 pt-16 pb-20">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1.5 rounded-full mb-8 uppercase tracking-wider">
+          Fractional marketing leadership · B2B tech
+        </div>
+        <h1 class="font-display font-600 text-4xl sm:text-5xl lg:text-[3.25rem] leading-[1.05] text-text-main mb-6">
+          Marketing that works starts with knowing <span class="text-coral">who you're for and how they buy.</span>
+        </h1>
+        <p class="text-lg text-text-secondary font-body leading-relaxed mb-8 max-w-xl">
+          Senior marketing thinking and hands-on execution from the same person. No full-time hire, no separate team to implement the work.
+        </p>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+          <a
+            href="https://tidycal.com/kjellvandevyvere/discovery"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 bg-text-main text-white font-body font-700 px-8 py-4 rounded-full hover:bg-text-main/90 transition-colors text-sm"
+          >
+            Book a call &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CLIENTS ───────────────────────────────────────────────── -->
+    <section class="border-y border-divider bg-bg-secondary py-10">
+      <div class="max-w-6xl mx-auto px-6">
+        <p class="text-xs text-text-secondary font-body uppercase tracking-widest mb-7 text-center">
+          Past and current work
+        </p>
+        <div class="grid grid-cols-3 sm:grid-cols-5 gap-2.5 max-w-3xl mx-auto">
+          {clients.map((client) => (
+            <div class="bg-white rounded-xl border border-divider px-2 py-3 flex items-center justify-center min-h-[52px]">
+              <span class="font-display font-500 text-text-main text-xs text-center leading-tight">{client}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── TWO OFFERS ────────────────────────────────────────────── -->
+    <section class="max-w-6xl mx-auto px-6 py-16">
+      <div class="mb-12 max-w-2xl">
+        <div class="inline-flex items-center border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1 rounded-full mb-6 uppercase tracking-wider">
+          Two engagements
+        </div>
+        <h2 class="font-display font-600 text-3xl sm:text-4xl text-text-main leading-snug">
+          Pick the engagement that fits your stage.
+        </h2>
+        <p class="mt-4 text-text-secondary font-body leading-relaxed">
+          Different stages need different things. The 0&rarr;1 engagement builds what doesn't exist yet. The scale-up engagement fills the gap when you need senior marketing hands with real product marketing depth, not another generalist.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-5">
+
+        <!-- OFFER 1: 0 → 1 -->
+        <div class="rounded-3xl p-8 sm:p-10 border" style="background: rgba(215, 98, 98, 0.06); border-color: rgba(215, 98, 98, 0.3);">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-11 h-11 bg-coral text-white rounded-xl flex items-center justify-center flex-shrink-0">
+              <span class="font-display font-600 text-xs">01</span>
+            </div>
+            <div>
+              <p class="font-display font-600 text-text-main text-xl leading-tight">Build the foundation</p>
+              <p class="text-xs font-body text-text-secondary mt-0.5">Fractional marketing lead for startups</p>
+            </div>
+          </div>
+
+          <p class="text-text-secondary font-body leading-relaxed mb-6">
+            You have a product and early interest, but no positioning, no defined ICP, no content engine, and no repeatable way to acquire customers. This engagement builds all of it from scratch.
+          </p>
+
+          <div class="mb-6">
+            <p class="text-xs font-body font-600 uppercase tracking-wider text-text-secondary mb-3">What gets built</p>
+            <ul class="space-y-2">
+              {[
+                'ICP definition and buyer persona',
+                'Positioning and messaging framework',
+                'Website copy that converts',
+                'Content engine and first assets',
+                'Email sequences and nurture flows',
+                'Customer journey mapping',
+              ].map((item) => (
+                <li class="flex items-start gap-2.5 text-sm font-body text-text-main">
+                  <span class="text-coral mt-0.5 flex-shrink-0 font-600">&#10003;</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="mb-6">
+            <p class="text-xs font-body font-600 uppercase tracking-wider text-text-secondary mb-3">Best fit</p>
+            <ul class="space-y-2">
+              {[
+                'Pre-seed to seed B2B tech startups',
+                'Product is live with early customers or pilots',
+                'Technical or product-led founding team',
+                'No dedicated marketing lead yet',
+              ].map((item) => (
+                <li class="flex items-start gap-2.5 text-sm font-body text-text-secondary">
+                  <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="pt-5 border-t" style="border-color: rgba(215, 98, 98, 0.2);">
+            <p class="text-sm font-body text-text-secondary">
+              <strong class="text-text-main font-600">Minimum 3 months.</strong> Strategy and execution from the same person, not two separate hires.
+            </p>
+          </div>
+        </div>
+
+        <!-- OFFER 2: Scale-up PMM -->
+        <div class="rounded-3xl p-8 sm:p-10 border" style="background: rgba(245, 158, 11, 0.06); border-color: rgba(245, 158, 11, 0.3);">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-11 h-11 bg-saffron text-white rounded-xl flex items-center justify-center flex-shrink-0">
+              <span class="font-display font-600 text-xs">02</span>
+            </div>
+            <div>
+              <p class="font-display font-600 text-text-main text-xl leading-tight">Marketing depth on demand</p>
+              <p class="text-xs font-body text-text-secondary mt-0.5">Fractional product marketer for scale-ups</p>
+            </div>
+          </div>
+
+          <p class="text-text-secondary font-body leading-relaxed mb-6">
+            You have revenue, a sales team, and traction. But you need marketing hands that actually understand your product and your market. Not a generalist who needs three months to get up to speed. Someone technical enough to grasp what you've built and sharp enough to turn it into a message that lands.
+          </p>
+
+          <div class="mb-6">
+            <p class="text-xs font-body font-600 uppercase tracking-wider text-text-secondary mb-3">What gets done</p>
+            <ul class="space-y-2">
+              {[
+                'Positioning refresh and competitive framing',
+                'Sales enablement: decks, one-pagers, battle cards',
+                'Website rebrand and messaging overhaul',
+                'Product launch positioning and GTM plans',
+                'Case studies and proof narratives',
+                'Buyer journey audit and conversion fixes',
+              ].map((item) => (
+                <li class="flex items-start gap-2.5 text-sm font-body text-text-main">
+                  <span class="text-amber-600 mt-0.5 flex-shrink-0 font-600">&#10003;</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="mb-6">
+            <p class="text-xs font-body font-600 uppercase tracking-wider text-text-secondary mb-3">Best fit</p>
+            <ul class="space-y-2">
+              {[
+                'Seed+ B2B tech startups and scale-ups',
+                'Marketing needs senior hands, not another junior hire',
+                'Sales team exists but no one is arming them properly',
+                'Outgrowing the brand or website you launched with',
+              ].map((item) => (
+                <li class="flex items-start gap-2.5 text-sm font-body text-text-secondary">
+                  <span class="w-1.5 h-1.5 rounded-full bg-saffron mt-2 flex-shrink-0"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="pt-5 border-t" style="border-color: rgba(245, 158, 11, 0.2);">
+            <p class="text-sm font-body text-text-secondary">
+              <strong class="text-text-main font-600">Project-based or ongoing retainer.</strong> Scope depends on what needs fixing. Usually starts with a positioning sprint.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Trigger moments -->
+      <div class="mt-5 bg-bg-secondary rounded-3xl p-8 border border-divider">
+        <p class="text-xs font-body font-600 uppercase tracking-wider text-text-secondary mb-6">
+          Most people reach out after one of these
+        </p>
+        <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-4">
+          {[
+            'Closed a round and investors are asking about GTM progress',
+            'First customers came through the founder network, now a repeatable motion is needed',
+            'Tried the obvious stuff: a LinkedIn post here, a landing page there, maybe a junior hire. Nothing moved the needle.',
+            'The sales team is building its own slides because marketing collateral is outdated',
+            'Lost a deal because the prospect didn\'t understand the value prop',
+            'Not sure if the problem is the message, the channel, the ICP definition, or all three',
+          ].map((item) => (
+            <li class="flex items-start gap-3 text-sm font-body text-text-main">
+              <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─── HOW IT WORKS ──────────────────────────────────────────── -->
+    <section class="max-w-6xl mx-auto px-6 pb-16">
+      <div class="mb-12 max-w-2xl">
+        <div class="inline-flex items-center border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1 rounded-full mb-6 uppercase tracking-wider">
+          What's different
+        </div>
+        <h2 class="font-display font-600 text-3xl sm:text-4xl text-text-main leading-snug">
+          Strategy and execution from the same person. Not two separate hires.
+        </h2>
+        <p class="mt-5 text-text-secondary font-body leading-relaxed">
+          Startups usually hire one of two things: strategists who can't execute, or executors who lack strategic context. The strategy and the build stay separated, and neither ends up doing its job. Very Klear collapses the two into one person with product marketing depth.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-5">
+        <div class="bg-white rounded-3xl p-7 border border-divider">
+          <p class="text-xs font-body font-600 uppercase tracking-wider text-text-secondary mb-5">
+            Strategy consultants
+          </p>
+          <p class="font-display font-500 text-text-main text-lg leading-snug mb-3">
+            Deliver decks instead of results.
+          </p>
+          <p class="text-sm text-text-secondary font-body leading-relaxed">
+            Expensive, slow, and then the deck gets handed off to founders who have to figure out what to do with it. The translation from strategy to shipped thing is on you.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-7 border border-divider">
+          <p class="text-xs font-body font-600 uppercase tracking-wider text-text-secondary mb-5">
+            Freelance operators and agencies
+          </p>
+          <p class="font-display font-500 text-text-main text-lg leading-snug mb-3">
+            Run the channel you ask for, whether or not it fits.
+          </p>
+          <p class="text-sm text-text-secondary font-body leading-relaxed">
+            Execute tactics without strategic context. Content ships, emails ship, ads ship. Nobody checks whether the positioning underneath holds up, so the signals don't compound.
+          </p>
+        </div>
+
+        <div class="rounded-3xl p-7 border" style="background: rgba(215, 98, 98, 0.06); border-color: rgba(215, 98, 98, 0.3);">
+          <p class="text-xs font-body font-600 uppercase tracking-wider text-coral mb-5">
+            Very Klear
+          </p>
+          <p class="font-display font-500 text-text-main text-lg leading-snug mb-3">
+            One person. Strategy and execution. No handoff.
+          </p>
+          <p class="text-sm text-text-secondary font-body leading-relaxed">
+            Product marketing depth where generalists fall short. Starts with how your buyer moves from problem-aware to decision-ready. Stays hands-on through delivery: the positioning, the website, the sales deck, the content. AI-native workflow that compounds output week over week.
+          </p>
+        </div>
+      </div>
+
+      <!-- GTM dashboard detail -->
+      <div class="mt-5 bg-text-main rounded-3xl p-8 sm:p-10">
+        <div class="flex flex-col sm:flex-row sm:items-start gap-6">
+          <div class="flex-shrink-0">
+            <p class="font-display font-600 text-2xl text-coral leading-none">The GTM dashboard</p>
+            <p class="font-body text-xs mt-1.5 uppercase tracking-widest" style="color: rgba(255,255,255,0.3);">The system behind the work</p>
+          </div>
+          <div class="sm:border-l sm:pl-6" style="border-color: rgba(255,255,255,0.1);">
+            <p class="font-body text-sm leading-relaxed mb-4" style="color: rgba(255,255,255,0.75);">
+              Every engagement runs through a GTM dashboard built for this specific problem. ICP on one tab. Market and alternatives on the next. Messaging derives from both. Copy derives from messaging. The website, the LinkedIn posts, the sales deck, and the email sequences all tell the same story because they all trace back to the same source of truth.
+            </p>
+            <p class="font-body text-sm leading-relaxed" style="color: rgba(255,255,255,0.75);">
+              It's the discipline most teams wish they had. Without it, "on-brand" is a matter of taste. With it, it's a checkable property.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── TESTIMONIALS ──────────────────────────────────────────── -->
+    <section class="max-w-6xl mx-auto px-6 pb-16">
+      <div class="mb-12">
+        <div class="inline-flex items-center border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1 rounded-full mb-6 uppercase tracking-wider">
+          What people say
+        </div>
+        <h2 class="font-display font-600 text-3xl sm:text-4xl text-text-main leading-snug">
+          From people I've worked with
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div class="bg-bg-secondary rounded-3xl p-8 border border-divider">
+          <p class="font-body text-text-main text-base leading-relaxed mb-8">
+            "Instead of just meeting my requirements, he went above and beyond &mdash; challenging my thinking, sharpening it, and guiding me on best practices. His work always exceeded my expectations. I could be at peace about not having to edit anything before publishing."
+          </p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-coral/10 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="font-display font-500 text-coral text-sm">RC</span>
+            </div>
+            <div>
+              <p class="font-display font-500 text-text-main text-sm">Rahul Chawra</p>
+              <p class="text-text-secondary font-body text-xs">Founder, Decode Strategy Labs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-bg-secondary rounded-3xl p-8 border border-divider">
+          <p class="font-body text-text-main text-base leading-relaxed mb-8">
+            "Kjell is extremely efficient, low-ego, and very much 'get it done' rather than 9-to-5. What makes him stand out is the real impact he brought to sales. On behalf of the entire sales team at Willow, I can confidently say he is one of those rare marketers who genuinely drives sales results."
+          </p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-coral/10 rounded-full flex items-center justify-center flex-shrink-0">
+              <span class="font-display font-500 text-coral text-sm">BS</span>
+            </div>
+            <div>
+              <p class="font-display font-500 text-text-main text-sm">Brent Schepers</p>
+              <p class="text-text-secondary font-body text-xs">Sales, Willow</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+    <section class="max-w-6xl mx-auto px-6 pb-16">
+      <div class="rounded-3xl p-10 sm:p-14 bg-bg-secondary">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1 rounded-full mb-8 uppercase tracking-wider">
+            About
+          </div>
+          <h2 class="font-display font-600 text-3xl sm:text-4xl text-text-main mb-6 leading-snug">
+            About Kjell
+          </h2>
+          <div class="space-y-4 text-text-secondary font-body leading-relaxed">
+            <p>
+              I'm a B2B marketer who's spent the past decade building content systems, positioning decks, and marketing foundations for companies like ZYGO, Willow, Aspire App, and ONAH HR, and contributing to the marketing efforts at fintech scale-ups like Airwallex, Soldo, and Mercury, enterprise tech (SOFICO), crowdfunding platforms (Winwinner, The Harbour), taxtech (Accountable), cybersecurity, and venture firms (Latitud). Sometimes launching from the ground up, sometimes reigniting what had gone stale. Different categories, same gap: not enough marketing hands, or not the right person to bridge the product and the message.
+            </p>
+            <p>
+              I started in content and SEO, moved through CRO and product marketing, and spent the last few years on both ends of the maturity spectrum: the 0-to-1 problem for early-stage founders, and the product marketing problem for scale-ups that have outgrown their initial positioning.
+            </p>
+            <p>
+              Very Klear is the practice I built around both. I take on a small number of engagements at a time, close enough to the work to actually know what's going on.
+            </p>
+          </div>
+          <div class="mt-8 flex items-center gap-5">
+            <a
+              href="https://linkedin.com/in/kjellvandevyvere"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-coral hover:underline font-body"
+            >
+              Connect on LinkedIn &rarr;
+            </a>
+            <a href="/blog" class="text-sm text-text-secondary hover:text-text-main transition-colors font-body">
+              Read the articles &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── LATEST WRITING ────────────────────────────────────────── -->
+    <section class="max-w-6xl mx-auto px-6 pb-16">
+      <div class="flex items-end justify-between mb-10 flex-wrap gap-4">
+        <div class="max-w-2xl">
+          <div class="inline-flex items-center border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1 rounded-full mb-6 uppercase tracking-wider">
+            From the blog
+          </div>
+          <h2 class="font-display font-600 text-3xl sm:text-4xl text-text-main leading-snug">
+            Recent writing
+          </h2>
+        </div>
+        <a href="/blog" class="text-sm text-coral hover:underline font-body font-600">
+          All articles &rarr;
+        </a>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-5">
+        {latestPosts.map((post) => (
+          <BlogCard
+            title={post.data.title}
+            slug={post.slug}
+            meta_description={post.data.meta_description}
+            category={post.data.category}
+            published_at={post.data.published_at}
+          />
+        ))}
+      </div>
+    </section>
+
+    <!-- ─── FINAL CTA ─────────────────────────────────────────────── -->
+    <section class="max-w-6xl mx-auto px-6 pb-20">
+      <div
+        class="bg-coral rounded-3xl py-14 px-10 sm:px-14"
+        style="background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 20px 20px;"
+      >
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+          <div class="max-w-xl">
+            <h2 class="font-display font-500 text-white text-2xl sm:text-3xl leading-snug mb-2">
+              Let's figure out if there's a fit.
+            </h2>
+            <p class="font-body mb-3" style="color: rgba(255,255,255,0.85);">
+              We'll talk through what you're working on, what's not clicking, and where I might add value.
+            </p>
+            <p class="font-body text-sm" style="color: rgba(255,255,255,0.6);">
+              Book a call or reach out to grab a coffee.
+            </p>
+          </div>
+          <a
+            href="https://tidycal.com/kjellvandevyvere/discovery"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex-shrink-0 bg-white text-coral font-body font-700 px-7 py-3.5 rounded-full hover:bg-white/90 transition-colors text-sm"
+          >
+            Book a call &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</BaseLayout>

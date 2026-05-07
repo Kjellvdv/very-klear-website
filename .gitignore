@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Astro
+.astro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Archives
+*.zip
+
+# Nested duplicate folder
+very-klear-website/
+
+# Claude local cache
+.claude/launch.json
