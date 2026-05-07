@@ -8,9 +8,9 @@ status: "published"
 published_at: 2026-04-25
 ---
 
-On a Tuesday in March, Sophie at ONAH told me she wanted to move quickly but had no idea what came next. Her HR product worked, a handful of customers liked it, and the website read like every other "all-in-one HR platform" page. By Wednesday afternoon, she had a positioning statement, two sticky one-liners ("the inbox no longer sets the agenda", "stop answering emails, start doing HR work"), and homepage copy good enough to ship. She was surprised it was AI-written.
+On a Tuesday in March, Sophie at ONAH told me she wanted to move quickly but had no idea what came next. Her HR product worked, a handful of potential customers liked it, and the website read like every other "all-in-one HR platform" page. By Wednesday afternoon, she had a positioning statement, two sticky one-liners ("the inbox no longer sets the agenda", "stop answering emails, start doing HR work"), and homepage copy good enough to ship. She was surprised it was AI-written.
 
-Sophie didn't have thirty customers. She didn't have ten. Three good signals were enough.
+Sophie didn't have thirty customers. She didn't have ten. A few good signals were enough.
 
 If you're a first-time technical founder, three to six months past pre-seed, with one to three paying customers from your network, this post is for you. The bar for writing a sharp **startup positioning statement** is lower than you've been told. The cost of waiting is higher.
 
@@ -22,7 +22,7 @@ The real problem is what people do when their best customers disagree. They pani
 
 Michele Hansen makes the load-bearing point in [Deploy Empathy](https://deployempathy.com/): "If you find yourself with five interviews under your belt and you're hearing wildly different things from each person, that's a sign your problem definition scope could be narrowed down."
 
-Read that twice. Divergence at small n isn't a sample-size problem. It's a scope problem. Your positioning is too broad and three buyers are pulling it three directions. The fix isn't more interviews. It's a sharper edge.
+Read that twice. Divergence at a small sample-size isn't always a sample size problem, but a scope problem. Your positioning is too broad and three buyers are pulling it three directions. The fix isn't more interviews but a clearer definition of who you should talk to.
 
 ## The waterfall: ICP, positioning, USPs, messaging
 
@@ -53,11 +53,11 @@ Adapt the [Switch Interview from Bob Moesta's Jobs to be Done framework](https:/
 
 Add Dunford's two. Magic wand: if you could change anything about how you currently do this, what would it be? Dinner party: how would you describe what we do to a friend over dinner? The first surfaces the unmet need. The second surfaces your real category, in their words.
 
-Tip: write their phrasing down verbatim. Customers give you better copy than you'll ever write. Sophie's "the inbox no longer sets the agenda" came almost word-for-word from an HR manager describing her Monday mornings.
+Tip: write their phrasing down verbatim. Customers give you better copy than you'll ever write.
 
 Interviews feel awkward in the first ten minutes. They almost always warm up. Hansen calls this the "harmless voice" effect. Stop performing as a founder, ask like you're curious, and people open up.
 
-I've also started days I didn't feel like doing customer calls. April 7th, woke up dreading three back-to-back Willow interviews. Did them anyway. They weren't bad. They never are. The dread is the only consistent part.
+I've also started days I didn't feel like doing customer calls. Did them anyway. They weren't bad. They never are. The dread is the only consistent part but it always gets better.
 
 ## Not all three customers are equal
 
@@ -137,10 +137,6 @@ Let's get specific about what "we'll do positioning later" actually costs.
 [Cold email benchmarks for 2025](https://levelupleads.io/blog/cold-email-benchmarks-2025-key-stats-every-marketer-should-know/) sit at 3.8 to 4.0 percent reply rates, around 306 emails per B2B lead. With sharp positioning, those numbers improve. With generic positioning, you compete on volume and someone with a bigger SDR team wins. So you send more, get fewer replies, blame the channel, try a new one. Channel sprawl is what positioning failure looks like in your calendar. (I wrote about that in [the do-everything trap](/blog/do-everything-trap-multi-channel-marketing). Sophie features there too, on the channel side of the same story.)
 
 Stack that against [pre-seed burn of $20-50k a month and 18-24 months of runway](https://learn.icanpitch.com/blog/burn-rate-benchmarks-by-industry-stage/). Three months of generic positioning is 60 to 150 grand. Three months you also can't test claims or generate data.
-
-A personal data point, because I'm not above this. April 14, I sat down to plan my LinkedIn content and had a small existential crisis: I didn't know what to post. I write positioning for a living, and without a sharp position for myself, even I stalled. The fix wasn't more interviews. It was the wedge. Two clients, ZYGO and ONAH, pre-seed technical founders going zero to one. "Helping startups go 0 to 1." Wrote it down March 19. Spine of every Very Klear post since.
-
-n=2. Thesis applies to me too.
 
 ## What changes at n=10
 
