@@ -291,36 +291,48 @@ const latestPosts = (await getCollection('blog', ({ data }) => data.status === '
     <!-- ─── ABOUT ─────────────────────────────────────────────────── -->
     <section class="max-w-6xl mx-auto px-6 pb-16">
       <div class="rounded-3xl p-10 sm:p-14 bg-bg-secondary">
-        <div class="max-w-2xl">
-          <div class="inline-flex items-center border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1 rounded-full mb-8 uppercase tracking-wider">
-            About
+        <div class="grid md:grid-cols-[1fr_280px] lg:grid-cols-[1fr_320px] gap-10 lg:gap-14 items-start">
+          <div class="max-w-2xl">
+            <div class="inline-flex items-center border border-divider text-text-secondary text-xs font-body font-600 px-3 py-1 rounded-full mb-8 uppercase tracking-wider">
+              About
+            </div>
+            <h2 class="font-display font-600 text-3xl sm:text-4xl text-text-main mb-6 leading-snug">
+              About Kjell
+            </h2>
+            <div class="space-y-4 text-text-secondary font-body leading-relaxed">
+              <p>
+                I'm a B2B marketer who's spent the past decade building content systems, positioning decks, and marketing foundations for companies like ZYGO, Willow, Aspire App, and ONAH HR, and contributing to the marketing efforts at fintech scale-ups like Airwallex, Soldo, and Mercury, enterprise tech (SOFICO), crowdfunding platforms (Winwinner, The Harbour), taxtech (Accountable), cybersecurity, and venture firms (Latitud). Sometimes launching from the ground up, sometimes reigniting what had gone stale. Different categories, same gap: not enough marketing hands, or not the right person to bridge the product and the message.
+              </p>
+              <p>
+                I started in content and SEO, moved through CRO and product marketing, and spent the last few years on both ends of the maturity spectrum: the 0-to-1 problem for early-stage founders, and the product marketing problem for scale-ups that have outgrown their initial positioning.
+              </p>
+              <p>
+                Very Klear is the practice I built around both. I take on a small number of engagements at a time, close enough to the work to actually know what's going on.
+              </p>
+            </div>
+            <div class="mt-8 flex items-center gap-5">
+              <a
+                href="https://linkedin.com/in/kjellvandevyvere"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-coral hover:underline font-body"
+              >
+                Connect on LinkedIn &rarr;
+              </a>
+              <a href="/blog" class="text-sm text-text-secondary hover:text-text-main transition-colors font-body">
+                Read the articles &rarr;
+              </a>
+            </div>
           </div>
-          <h2 class="font-display font-600 text-3xl sm:text-4xl text-text-main mb-6 leading-snug">
-            About Kjell
-          </h2>
-          <div class="space-y-4 text-text-secondary font-body leading-relaxed">
-            <p>
-              I'm a B2B marketer who's spent the past decade building content systems, positioning decks, and marketing foundations for companies like ZYGO, Willow, Aspire App, and ONAH HR, and contributing to the marketing efforts at fintech scale-ups like Airwallex, Soldo, and Mercury, enterprise tech (SOFICO), crowdfunding platforms (Winwinner, The Harbour), taxtech (Accountable), cybersecurity, and venture firms (Latitud). Sometimes launching from the ground up, sometimes reigniting what had gone stale. Different categories, same gap: not enough marketing hands, or not the right person to bridge the product and the message.
-            </p>
-            <p>
-              I started in content and SEO, moved through CRO and product marketing, and spent the last few years on both ends of the maturity spectrum: the 0-to-1 problem for early-stage founders, and the product marketing problem for scale-ups that have outgrown their initial positioning.
-            </p>
-            <p>
-              Very Klear is the practice I built around both. I take on a small number of engagements at a time, close enough to the work to actually know what's going on.
-            </p>
-          </div>
-          <div class="mt-8 flex items-center gap-5">
-            <a
-              href="https://linkedin.com/in/kjellvandevyvere"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-sm text-coral hover:underline font-body"
-            >
-              Connect on LinkedIn &rarr;
-            </a>
-            <a href="/blog" class="text-sm text-text-secondary hover:text-text-main transition-colors font-body">
-              Read the articles &rarr;
-            </a>
+          <div class="md:order-last md:sticky md:top-8">
+            <img
+              src="/kjell.jpg"
+              alt="Kjell Vandevyvere"
+              class="w-full max-w-[320px] aspect-[4/5] object-cover rounded-3xl mx-auto md:mx-0"
+              loading="lazy"
+              width="640"
+              height="800"
+            />
           </div>
         </div>
       </div>
