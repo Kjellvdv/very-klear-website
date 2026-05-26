@@ -8,11 +8,9 @@ status: "published"
 published_at: 2026-04-15
 ---
 
-Most early-stage founders don't have an ICP problem. They have a pattern recognition problem.
+Most early-stage founders have an ICP problem.
 
-The customers exist. A few of them are genuinely great: they use the product, pay on time, refer people, and don't file a support ticket every Tuesday. But when you ask the founder how those customers arrived, the answer is usually some version of: "Honestly, they kind of just found us."
-
-That's not a failure. That's the data you need.
+The customers exist. A few of them are genuinely great: they use the product, pay on time, refer people, and don't file a support ticket every Tuesday. But when you ask the founder how those customers arrived, there's not consistent answer. There's no pattern. 
 
 ## Your best customers are already telling you something
 
@@ -22,7 +20,7 @@ The question isn't "how do we find more customers." It's "what made these specif
 
 ## The interview you should already be having
 
-Before you write a targeting framework or fill out an ICP template, talk to three of your best customers. Not a survey. An actual conversation: 30 minutes, recorded. These conversations also give you the raw material for [mapping your customer journey](/blog/how-to-map-your-customer-journey) — the same trigger moments and objection language you'll use everywhere else.
+Before you write a targeting framework or fill out an ICP template, talk to your best customers. Don't just send a survey. An actual conversation: 30 minutes, recorded. These conversations also give you the raw material for [mapping your customer journey](/blog/how-to-map-your-customer-journey) — the same trigger moments and objection language you'll use everywhere else.
 
 Ask them three things:
 
@@ -48,13 +46,13 @@ Forget the persona template with a photo of "Marcus, VP of Marketing, 38, drives
 
 A useful ICP has four parts:
 
-**Who they are.** Industry, company size, role. Be narrow. "B2B tech companies" isn't an ICP. "Seed-stage B2B tech founders with 3–15 paying customers who are preparing for a Series A conversation" is closer.
+**Who they are.** Industry, company size, role. Be narrow. "B2B tech companies" isn't an ICP. "Seed-stage B2B tech founders with a few dozen paying customers who are preparing for a Series A conversation" is closer.
 
-**The trigger.** What happened: in their business, in their role, in their week: that made them start looking for a solution? The more specific you can make this, the more useful it is.
+**The trigger.** What happened in their business, in their role, in their week, that made them start looking for a solution? The more specific you can make this, the more useful it is.
 
 **What they've already tried.** If they're looking for you, they've usually already ruled something out. Understanding why the alternatives didn't work tells you exactly what to promise and what not to.
 
-**What a good outcome looks like.** Not features. Not metrics. What does their situation look like six months from now if this works? This is the thing your content should be describing.
+**What a good outcome looks like.** What does their situation look like six months from now if this works? This is the thing your content should be describing.
 
 ## The test
 

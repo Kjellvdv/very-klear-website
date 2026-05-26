@@ -34,7 +34,7 @@ Many-to-one: publish a lot of small pieces, watch what pulls, then bundle what k
 
 I've been running the second version without quite noticing. For months I've been posting observations on AI, the future of work, adoption patterns. The same ideas keep surfacing across those posts. That's the signal there's a longer piece waiting. I'm bundling them now.
 
-The mistake isn't picking the wrong direction. It's not picking one. Random posts that don't chain into anything, or an anchor piece that sits alone without distribution, both waste what the other would have gotten you.
+The biggest mistake is not picking a direction. Random posts that don't chain into anything, or an anchor piece that sits alone without distribution, both waste what the other would have gotten you.
 
 ## Keep a list, but know what's changed
 
@@ -42,9 +42,7 @@ The classic advice is to keep a running doc with twelve to fifteen ideas so you'
 
 The bigger shift is in what that list is actually protecting you from. Ideation and first-draft work aren't the bottleneck they were two years ago. AI closes most of the blank-page problem. The real bottleneck is having something worth saying, which sits upstream of the list.
 
-If you've got an anchor asset, the list mostly writes itself from it, and distribution tools can take it from there. Willow Create is what I've built to handle that piece: we run social media on autopilot for a dozen companies already. The report goes in, the posts and visuals come out. The founder's time stays on the anchor, which is where it should be.
-
-Writing three weeks ahead is still the right instinct. Just do it at the anchor layer, not the post layer.
+If you've got an anchor asset, the list mostly writes itself from it, and distribution tools can take it from there. Willow Create is what I've helped built to handle that piece: we run social media on autopilot for a dozen companies already. The report goes in, the posts and visuals come out. 
 
 ## Define your minimum viable cadence
 
@@ -52,7 +50,7 @@ Write down what "keeping the content engine alive" looks like when you're at 20%
 
 For most founders, that's one short LinkedIn post per week and nothing else. That's the floor. When a crisis hits, you drop to the floor. You do not drop through it.
 
-This isn't a vibe. Willow's consistency report found that near-weekly LinkedIn posting is roughly the threshold below which growth stalls. Go quiet for three weeks and you're essentially restarting: the algorithm forgets you, and the audience moves on to whoever's still talking. Similar thresholds exist on other channels.
+Willow's consistency report found that near-weekly LinkedIn posting is roughly the threshold below which growth stalls. Go quiet for three weeks and you're essentially restarting: the algorithm forgets you, and the audience moves on to whoever's still talking. Similar thresholds exist on other channels.
 
 The other reason the floor matters is psychological. Starting from scratch is always harder than grinding on a low day. Same as going running or going to the gym: the cost of the first session after a month off is much higher than the cost of the easy session you could have done last week.
 
@@ -62,10 +60,10 @@ Paul Graham's [Do Things That Don't Scale](http://paulgraham.com/ds.html) makes 
 
 Monday morning (30 minutes): choose topic from the list, write a rough outline.
 Tuesday (60 to 90 minutes): write the draft.
-Wednesday (15 minutes): edit, publish.
+Wednesday (30 minutes): edit, publish.
 
 Under two hours of actual writing time. The rest of the week, if you're shipping content, is distribution — sharing the piece, engaging with comments, noting what resonated. Distribution is optional in the early days. Publishing isn't.
 
-For the piece to be worth publishing, it needs to be useful — not perfect. "Good enough and out the door" beats "not ready yet" every time at this stage.
+For the piece to be worth publishing, it needs to be useful, not perfect. "Good enough and out the door" beats "not ready yet" every time at this stage.
 
 For how this content engine connects to founder-led outreach, see [the founder-led sales playbook](/blog/founder-led-sales-from-0-to-50-customers). And for the LinkedIn piece of the system, [LinkedIn for B2B tech founders who don't want to become influencers](/blog/linkedin-for-b2b-saas-founders) has the specifics.

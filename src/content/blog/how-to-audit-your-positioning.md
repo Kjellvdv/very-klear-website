@@ -8,9 +8,9 @@ status: "published"
 published_at: 2026-03-18
 ---
 
-Traffic but no conversions. Demos with smart people who don't buy. Outreach that gets replies but not meetings.
+Traffic but no conversions? Demos with smart people who don't buy? Outreach that gets replies but not meetings?
 
-These are the symptoms. The diagnosis is often positioning. Not always: sometimes it's sales execution, sometimes it's expectation-setting earlier in the funnel. But when the same pattern shows up across multiple parts of the pipeline, positioning is usually what's underneath.
+These are clear symptoms. And the diagnosis is bad positioning. Not always: sometimes it's sales execution, sometimes it's expectation-setting earlier in the funnel. But when the same pattern shows up across multiple parts of the pipeline, positioning is usually what's underneath.
 
 Positioning is the set of decisions that determine how your product appears in the mind of the right buyer. When it's right, the right people show up, understand what you do immediately, and feel compelled to take a step. When it's off, you get activity without traction. Here's how to tell the difference, and what to fix.
 
