@@ -8,35 +8,31 @@ status: "published"
 published_at: 2026-02-18
 ---
 
-LinkedIn for founders usually looks like one of two things: you're not on it at all, or you've been told you need to be a "thought leader" and you're now posting motivational content you don't believe in to an audience that doesn't buy from you.
+LinkedIn for founders usually looks like one of two things: you're barely on it at all, or you're starting the confuse the business promoting your company through thought leadership with the business of being a content creator.
 
-Neither works. Here's the third option.
+Both could work but there's a third option.
 
 ## What LinkedIn actually does for early-stage B2B tech
 
-LinkedIn doesn't close deals. It creates the conditions in which deals are easier to close.
+LinkedIn doesn't close deals on its own. It creates the conditions in which deals are easier to close.
 
 When a prospect gets a cold email from you, they look you up. When a referral tells someone to reach out, that person looks you up. When you're about to send a partnership proposal, the other side looks you up. What they find is either a blank profile or a signal about who you are, what you know, and whether you're worth talking to.
 
-That's the job. Not to go viral. Not to build a following. To pass the credibility check when someone's already interested.
+That's the job. Not to go viral. Not to build a massive following. The goal is to pass the credibility check when someone's already interested.
 
 It also compounds in ways you won't see coming. I got my job at Willow because someone noticed my LinkedIn posts. Not one post. A pattern across months. That's the version of LinkedIn that matters for founders: something that keeps working in the background whether or not any individual post performs.
 
 ## The minimum presence that works
 
-Two things matter, and one that matters less than people think.
-
-**A clear summary.** Under 200 words. First person. What you've built, who it's for, and what kind of traction it has. Not impressive to everyone. Relevant to the right person. This is the one a prospect actually reads when they click through.
+**A clear summary.** Under 200 words. First person. What you've built, who it's for, and what kind of traction it has. Relevant to the right person. This is the one a prospect actually reads when they click through.
 
 **A sustainable posting cadence.** One post per week is enough if the posts are useful. The trap is picking a cadence you can't maintain, burning out, and going dark for six weeks. [A content engine built around two hours a week](/blog/how-to-build-a-content-engine) makes this sustainable. Your anchor articles become LinkedIn posts, your LinkedIn posts surface the next article topics.
-
-The thing that matters less: the headline. People love to obsess over headlines, optimal posting times, and emoji use. Those are details. They're not what makes LinkedIn work. What makes it work is long-term consistency, in-depth content, and the conversations that happen in the DMs. A perfect headline won't save a profile that hasn't posted in eight weeks.
 
 ## What to post
 
 The posts that build pipeline aren't inspirational. They're specific.
 
-Write about the problems your buyer is dealing with right now. Not "here's how to scale your GTM strategy" (vague, could be anyone). But "here's what I see going wrong in the first three months of founder-led sales, and what to do instead" (specific, recognizable, the kind of thing a prospect reads and thinks: that's me).
+Write about the problems your buyer is dealing with right now. Not "here's how to scale your GTM strategy" (vague, could be anyone). But "Here's what I see going wrong in the first three months of founder-led sales, and what to do instead" (specific, recognizable, the kind of thing a prospect reads and thinks: that's me).
 
 The mental model: you're not creating content. You're having one side of a conversation with the person you want to work with. Would they find this useful? Would they share it with someone on their team? If yes, publish it. If no, it's not ready.
 
@@ -46,7 +42,7 @@ The corollary is that you need a mix. A diet of only narrow, targeted posts grow
 
 ## What not to do
 
-Don't post about your product launch, funding announcement, or new partnership as your main content strategy. Those posts are for your existing network. They don't bring new people in.
+Don't post about your product launch, funding announcement, or new partnership as your main content strategy. Those posts are for your existing network. They don't usually bring new people in.
 
 Don't hook every post with a manufactured list of "7 things successful founders never do." That content gets likes from other content creators, not from buyers.
 

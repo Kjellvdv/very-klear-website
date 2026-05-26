@@ -8,7 +8,7 @@ status: "published"
 published_at: 2026-04-01
 ---
 
-Every founder I talk to at this stage frames founder-led sales the same way: as a problem to solve. Something to get through until you can afford to hire someone to do it properly.
+Many founders see founder-led sales as a problem to solve. It's something to get through until they can afford to hire someone to do it properly.
 
 That framing is wrong, and it's costing them.
 
@@ -22,11 +22,9 @@ Here's what a deliberate version looks like.
 
 This sounds obvious until you realise how many early founders are doing outreach to anyone who might conceivably be a customer. A vague ICP produces vague outreach, which produces either no replies or the wrong customers.
 
-Before you send anything, define the 50-person list. Not 500, not a Salesforce database. Fifty specific companies or people who match the tightest version of your ICP.
+Before you send anything, define the 50-person list. Fifty specific companies or people who match the tightest version of your ICP.
 
 For B2B tech at early stage, that typically means: specific industry, specific company size, specific role, and: most importantly: a reason to believe they have the problem you solve right now. That last part is the one most people skip. Timing matters more than fit. If your ICP isn't defined yet, [here's how to get there](/blog/how-to-define-your-icp) before you spend a week on a list that won't convert.
-
-This is the stage ZYGO is in now. The category is clear, but the 50-person list isn't a direct read from the ICP. We're filtering by company size, by the specific use case the product is best at, and by whether the account has room to scale with us. Some accounts are more interesting than others. The list has to reflect that, not just the ICP on paper.
 
 ## The outreach that actually works
 
@@ -35,8 +33,6 @@ Founder-led outreach works when it doesn't read like outreach.
 The messages that convert are short, specific, and show you've paid attention. Not "Hi [Name], I wanted to reach out about our platform that helps companies like yours..." That sentence could have been written by anyone about anything.
 
 Something closer to: "I noticed you're scaling your sales team after your Series A: I've worked with a few companies at this stage and found that's usually when the messaging starts to break down. Would it be useful to compare notes?" That message required you to know something specific about the recipient. That specificity is the signal that it's worth responding to.
-
-No attachments. No deck. No case study in the first message. One sentence of context, one relevant observation, one low-friction ask.
 
 And do not automate it at this stage. I watched a company run an automated outreach campaign built around a case study. The copy went out without review. It said something negative about the actual customer featured in the case study. That customer saw the campaign within a day. The outreach got pulled, the case study was shelved before publication, and the account almost churned. One bad send, three things killed.
 
@@ -69,10 +65,10 @@ That standard is high. Most "just following up" emails don't pass it.
 
 ## When to stop being in every deal
 
-The transition point isn't headcount. It's documentation.
+The transition point isn't headcount but processes and documentation.
 
-You're ready to hand off founder-led sales when you can write down: who the right buyer is, what the trigger looks like, how the first conversation should go, what questions surface every time, and what moves deals forward. Until that document exists: and has been tested against enough deals to be trusted: hiring a rep just imports your confusion at higher cost.
+You're ready to hand off founder-led sales when you can write down: who the right buyer is, what the trigger looks like, how the first conversation should go, what questions surface every time, and what moves deals forward. Until that document exists and has been tested against enough deals to be trusted, hiring a rep just imports your confusion at higher cost.
 
 The goal of the first 50 customers isn't just 50 customers. It's learning what a repeatable sale looks like. That's the asset. The customers are almost a byproduct.
 
-Paul Graham's [Do Things That Don't Scale](http://paulgraham.com/ds.html) is the clearest argument for why founder-led sales is the right move at this stage — not just a necessary evil. And once you've got the sales motion working, [building a content engine](/blog/how-to-build-a-content-engine) alongside it is how you stop relying entirely on outbound to fill the pipeline.
+Paul Graham's [Do Things That Don't Scale](http://paulgraham.com/ds.html) is the clearest argument for why founder-led sales is the right move at this stage—not just a necessary evil. And once you've got the sales motion working, [building a content engine](/blog/how-to-build-a-content-engine) alongside it is how you stop relying entirely on outbound to fill the pipeline.

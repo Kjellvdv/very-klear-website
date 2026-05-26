@@ -10,25 +10,9 @@ published_at: 2026-04-01
 
 Most messaging guides live in a shared folder somewhere. Opened twice: once when they're finished and once when someone new joins the team and asks what the product actually does.
 
-That's not a messaging guide. That's a positioning graveyard.
+That's a wasted opportunity for an asset that can do a lof of heavy lifting.
 
 The difference between a guide that gets used and one that doesn't is what it contains. Useful messaging guides give your team sentences. Not principles. Not pillars. Actual sentences they can drop into an email, a call, a social post, or a pitch deck without having to translate anything.
-
-## The boilerplate (three lengths)
-
-Every useful messaging guide starts with one sentence that answers: what do you do, for who, and what changes for them?
-
-Not a slogan. Not a tagline. A sentence a salesperson could say on a cold call, a marketer could put in a subject line, and a founder could say at a dinner party without sounding like they're pitching.
-
-But one sentence isn't enough on its own. Your team needs three versions at different lengths:
-
-- **A one-liner.** Under 20 words. Who you help, what you do, what changes.
-- **A headline.** Under 12 words. The version that works on a landing page or pitch deck.
-- **A paragraph.** 2-3 sentences. Problem, solution, what makes you different.
-
-Every other line in the guide is a branch off these three. If a piece of copy can't be traced back to one of them, it's probably off-message.
-
-Draft the one-liner first, test it with five people who match your ICP, and revise until someone says: "oh, that's exactly what I've been looking for." That's the signal. The headline and paragraph follow from there.
 
 ## The problem statement
 
@@ -38,7 +22,7 @@ A good problem statement passes one test: if you sent it to your five best custo
 
 ## The value trifecta
 
-Now describe what you do. Not what the product is. What changes for the customer.
+Now describe what you do and what changes for the customer.
 
 "We build proprietary algorithms that process behavioural signals" is a features sentence. "By the time a trial user hits their third session, you know whether they'll convert" is an outcome sentence. The second one is useful. The first one only matters to people already sold on the category.
 
@@ -48,7 +32,7 @@ One outcome sentence isn't enough though. A complete picture of what you deliver
 - **Emotional.** How the customer feels afterwards. Specific shifts: from overwhelmed to in control, from frustrated to confident, from uncertain to convinced.
 - **Financial.** What they save, earn, or stop losing. Quantified where possible, qualitative where not.
 
-Most messaging guides nail one dimension and skip the other two. A guide that only lists functional outcomes reads like a features list with better wording. A guide that only speaks to emotion reads like a therapist's website. You need all three, because different buyers care about different dimensions and often don't know which one is theirs until they hear it named.
+Most messaging guides nail one dimension and skip the other two. A guide that only lists functional outcomes reads like a features list. A guide that only speaks to emotion reads like a therapist's website. You need all three, because different buyers care about different dimensions.
 
 ## The value propositions
 

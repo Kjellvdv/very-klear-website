@@ -23,3 +23,5 @@ very-klear-website/
 
 # Claude local cache
 .claude/launch.json
+.claude/settings.local.json
+.claude/worktrees/

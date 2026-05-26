@@ -8,15 +8,15 @@ status: "published"
 published_at: 2026-04-25
 ---
 
-On a Tuesday in March, Sophie at ONAH told me she wanted to move quickly but had no idea what came next. Her HR product worked, a handful of potential customers liked it, and the website read like every other "all-in-one HR platform" page. By Wednesday afternoon, she had a positioning statement, two sticky one-liners ("the inbox no longer sets the agenda", "stop answering emails, start doing HR work"), and homepage copy good enough to ship. She was surprised it was AI-written.
+On a Tuesday in March, Sophie at ONAH told me she wanted to move quickly but had no idea what came next. Her HR product looked promising but there was no finished website nor clear guidelines. By Wednesday afternoon, she had a positioning statement, two sticky one-liners ("the inbox no longer sets the agenda", "stop answering emails, start doing HR work"), and homepage copy good enough to ship. She was surprised it was AI-written.
 
-Sophie didn't have thirty customers. She didn't have ten. A few good signals were enough.
+A few good signals were enough.
 
-If you're a first-time technical founder, three to six months past pre-seed, with one to three paying customers from your network, this post is for you. The bar for writing a sharp **startup positioning statement** is lower than you've been told. The cost of waiting is higher.
+If you're a first-time technical founder, three to six months past pre-seed, with a few customers from your network, this post is for you. The bar for writing a sharp **startup positioning statement** is lower than you've been told. The cost of waiting is higher.
 
 ## "I don't have enough customers" is the wrong frame
 
-Nowhere in [Obviously Awesome](https://www.aprildunford.com/books) does April Dunford say you need thirty customers. The book tells you to list your best customers. For most early-stage founders that list is short. Starting point, not a problem.
+Nowhere in [Obviously Awesome](https://www.aprildunford.com/books) does April Dunford say you need thirty customers. The book tells you to list your best customers. For most early-stage founders that list is short.
 
 The real problem is what people do when their best customers disagree. They panic, decide the sample is too small, go off to talk to twenty more. Two months. Positioning pushed to "after the next round."
 
@@ -28,15 +28,15 @@ Read that twice. Divergence at a small sample-size isn't always a sample size pr
 
 Here's the frame I keep coming back to, and it's the most important idea in this post.
 
-Data from your ICP waterfalls into your positioning. Positioning into USPs. USPs into messaging. Messaging into homepage copy, cold emails, sales scripts, LinkedIn posts, ads, the lot.
+Data from your ICP waterfalls into your positioning. Positioning into USPs. USPs into messaging. Messaging into homepage copy, cold emails, sales scripts, LinkedIn posts, ads, and so on.
 
-The waterfall isn't a metaphor I picked up from a book. It's a system I've been building for four years out of product marketing notes, templates, and frameworks. For Sophie I bundled it into a tool that takes raw onboarding input and runs it down the chain in one pass: ICP → positioning → USPs → messaging → copy. The first end-to-end run was on her project. The next run will be faster. The point isn't the tool, though, it's the chain. Any founder can run the same chain manually with three customer interviews and two days of focused work.
+The waterfall is a system I've been building for four years out of product marketing notes, templates, and frameworks. For Sophie I bundled it into a tool that takes raw onboarding input and runs it down the chain in one pass: ICP → positioning → USPs → messaging → copy. The first end-to-end run was on her project. The next run will be faster. The point isn't the tool, though, it's the chain. Any founder can run the same chain manually with three customer interviews and a day of focused work.
 
 Worth being explicit about one thing: customer interviews and the waterfall are different activities. Interviews gather raw input. The waterfall transforms that input into usable statements and copy. People conflate them and get stuck on the input phase, hoping more interviews will eventually produce a position. They won't. The transformation step is its own work.
 
 Most founders try to write the bottom first. They sit down for a homepage and discover they don't know who it's for. They draft cold emails and every line could be sent by any competitor. They blame the copy. The copy is fine. The waterfall is dry.
 
-At n=3, the waterfall works *because* the bottom forces coherence at the top. You can't write a hero without a value statement. You can't write value without a position. You can't write a position without an ICP. So when you sit down to ship, you discover what's missing upstream, and the work fixes itself in order.
+The waterfall works *because* the bottom forces coherence at the top. You can't write a hero without a value statement. You can't write value without a position. You can't write a position without an ICP. So when you sit down to ship, you discover what's missing upstream, and the work fixes itself in order.
 
 This is why "we'll do positioning later" is a trap. Without it, every downstream artefact gets stuck or generic. With it, even a half-right hypothesis gives you something to test. Testing is the only thing that produces better data than three customers.
 
@@ -55,10 +55,6 @@ Add Dunford's two. Magic wand: if you could change anything about how you curren
 
 Tip: write their phrasing down verbatim. Customers give you better copy than you'll ever write.
 
-Interviews feel awkward in the first ten minutes. They almost always warm up. Hansen calls this the "harmless voice" effect. Stop performing as a founder, ask like you're curious, and people open up.
-
-I've also started days I didn't feel like doing customer calls. Did them anyway. They weren't bad. They never are. The dread is the only consistent part but it always gets better.
-
 ## Not all three customers are equal
 
 Most founders average their three customers and call the average a position. Bad idea. Two are probably mildly interested. One is in pain. That last one is the data point.
@@ -70,8 +66,6 @@ So look at your three and ask: which came complaining about something specific? 
 Frederic Kerrest of Okta puts it bluntly in *Zero to IPO*: "Smart startups begin by targeting just one or two sectors, focusing on the top three or five companies. These are called lighthouse accounts. If you can win them, you can often own the whole vertical."
 
 Three isn't too few. Three is the right number for a wedge. Lighthouses, not a sample.
-
-One caveat. If your three came through your network, at least one bought partly as a favor. Discount that one. A customer who found you cold is worth more than one who said yes over a beer.
 
 ## "But what if I pick the wrong three?"
 

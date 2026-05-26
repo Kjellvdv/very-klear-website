@@ -16,7 +16,7 @@ So, inevitably, she starts thinking about all sorts of channels and approaches. 
 
 ## The five-channel founder (and why I keep meeting them)
 
-The script is almost identical across many B2B tech founders I talk to. You raised pre-seed three to six months ago. You have one to three paying customers pulled from your personal network. The investor who backed you asked about traction on a Tuesday, and by Thursday you were posting on LinkedIn, running a bit of Google Ads, sending cold emails, publishing some blog posts, and showing up at every pitch event in the area.
+The script is almost identical across many B2B tech founders I talk to. You raised pre-seed. You have a few paying customers pulled from your personal network. You want more traction so you start posting on LinkedIn, running a bit of Google Ads, sending cold emails, publishing some blog posts, and showing up at every pitch event in the area.
 
 You start to think you're visible. You're definitely busy. But your calendar doesn't have a single qualified call on it.
 
@@ -24,7 +24,7 @@ The funny things is that every founder says the same sentence: "I don't have tim
 
 I know the pattern because I've lived it. As a freelancer, when business wasn't going the right way, I also went wider instead of narrower. New services. New platforms. New audiences. It felt like hustling. It was the opposite. Going wide when things aren't working is the reflex, and it makes things worse every time.
 
-I'll confess a recent version of it too. Two weeks ago I was so desperate to move forward with one of my own projects that I bought a discounted Sales Navigator subscription. I wanted a tool without grey areas. Most LinkedIn tools are in a permanent ToS dance with the platform.
+I'll confess a recent version of it too. Two weeks ago I was so desperate to move forward with one of my own projects that I bought a discounted Sales Navigator subscription. I wanted a tool without grey areas since most LinkedIn tools are in a permanent ToS dance with the platform.
 
 It wasn't strategic. It was me buying the *legitimate* version of a channel I hadn't decided to commit to yet, because that felt like progress. It wasn't.
 
@@ -68,16 +68,14 @@ You can't run five channels on a foundation you haven't poured.
 
 ## How to pick the one channel that actually fits your ICP
 
-Once you have the sentence, the channel choice is a filter, not a guess. Ask these four questions:
+Once you have the sentence, the channel choice is a filter. Ask these four questions:
 
 1. **Where does my ICP already spend time with the problem top-of-mind?** Not "where are they active on the internet." Where are they in active problem-solving mode? A CFO reads industry Slack threads. A robotics engineer scrolls r/robotics at lunch. A VC goes to Supernova and pitching events.
 2. **Can I produce a real volume of signal in twelve weeks?** If the answer is no, it's the wrong channel for now. SEO won't clear this bar ([Search Engine Land](https://searchengineland.com/early-stage-startup-seo-investment-447507) puts meaningful pipeline at 6 to 12 months minimum, and the early months typically leave you ranking in positions 20 to 50 with no traffic). Cold outbound clears it if you can send dozens of emails a week. LinkedIn clears it if you can post three times a week. Events clear it if there's more than one relevant one this quarter.
 3. **Where does my product demo best?** A product that needs 20 minutes of live screen-share to make sense is not winning on cold email. A product that solves a painful, nameable problem in one sentence can.
-4. **Where can I personally show up as the sharpest voice in the room?** At pre-seed, the founder is the channel. Pick the surface where your natural voice carries, not the one you think you "should" be on.
+4. **Where can I personally show up as the sharpest voice in the room?** At pre-seed, the founder is the channel. Pick the surface where your natural voice carries, not the one you think you "should" be on. Pick the cadence you can sustain for 12 weeks without burning out, and protect it like your runway depends on it, because it does.
 
 Question one is the one that does the real work. The other three are filters stacked on top of it, but if you can't answer the ICP question sharply, none of the others matter yet. Every time a founder pushes back on the four — "what if I pick the wrong channel?", "my investor wants variety," "LinkedIn is free, why not?" — my answer is the same question back: *where is your ICP?* If the ICP is sharp, the channel choice becomes obvious and the pushback dissolves. Almost every "but what about" is really an ICP gap wearing a channel costume.
-
-One channel. One story. One cadence. Pick the cadence you can sustain for 12 weeks without burning out, and protect it like your runway depends on it, because it does.
 
 One exception. You get to run one passive capture motion alongside your active channel. That usually means a basic website with a clear CTA and maybe a visitor-identification tool. It's passive. It doesn't steal attention. It catches the people your active channel pushes toward you. Everything else stays off.
 
@@ -91,7 +89,7 @@ If your week looks anything like the one we described before, here's the honest 
 - **Stop** buying tools to feel productive. (I just did this. Don't do what I did.)
 - **Start** the positioning work you've been avoiding. [Audit what you have](/blog/how-to-audit-your-positioning) against the test: would a buyer in your ICP read this and think "that's for me"? If not, fix the sentence before you touch another channel.
 - **Start** treating one channel as a 12-week commitment with weekly measurement.
-- **Start** saying no to the other channels, out loud.
+- **Start** saying no to the other channels.
 
 ## When multi-channel actually earns its place
 
@@ -103,4 +101,4 @@ Post-PMF companies with dedicated channel teams run seven, eight, ten channels a
 
 Lenny Rachitsky writes that pre-scale acquisition is "getting really good at one thing." Get one company to love your product. Get one channel to produce pipeline. Get one sentence to land with your ICP every time you say it. Then, and only then, earn the right to the second.
 
-If you're running five channels and wondering why none of them work, the answer isn't a sixth. It's a sentence and a subtraction.
+If you're running five channels and wondering why none of them work, the answer isn't a sixth. It's a stronger ICP and full focos on one channel.

@@ -14,7 +14,7 @@ Open ChatGPT or Claude. Scroll up your last ten prompts.
 
 If most of them are questions ("write me a LinkedIn post about X", "rewrite this email", "summarise this transcript"), you're at Level 1. You're using a multi-billion-dollar reasoning engine as a smarter Google. That's how most people are doing AI for B2B marketing right now.
 
-It's fine for an intern. It's not a strategy.
+It's somewhat acceptable for an intern. It's not for a seasoned marketer.
 
 The floor is rising fast. HubSpot's 2025 State of Marketing AI report says 94% of marketers plan to use AI in content creation in 2026. 47% for emails, 46% for social copy, 38% for blog posts. Everyone's adopting. Almost nobody is moving up the ladder.
 
@@ -22,7 +22,7 @@ Adoption isn't the moat anymore. Autonomy is.
 
 ## The 5 levels of AI autonomy
 
-The cleanest framework I've found comes from the Knight First Amendment Institute. Feng, McDonald and Zhang published "Levels of Autonomy for AI Agents" on [28 July 2025](https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1). Five levels, ordered by who's actually driving:
+The cleanest framework I've found comes from the Knight First Amendment Institute. Feng, McDonald and Zhang published "Levels of Autonomy for AI Agents" on [28 July 2025](https://knightcolumbia.org/content/levels-of-autonomy-for-ai-agents-1). There are five levels, ordered by who's actually driving:
 
 - **L1 Operator.** You're in charge. The agent supports on demand. (You ask, it answers.)
 - **L2 Collaborator.** You and the agent plan together, delegate, execute in parallel.
@@ -38,33 +38,29 @@ Translate that into marketing:
 - L4: AI runs the workflow end-to-end. You see one thing: the finished asset waiting for approval.
 - L5: AI ships. You watch the dashboard.
 
-Most B2B tech marketers I talk to live at L1. They've never tasted L4. And they treat L5 as scary instead of a deliberate choice.
+Most B2B tech marketers I see still live at L1.
 
 ## Level 1 is the default, and it's a trap
 
-I've been at the frontier the whole time. Custom GPTs from the early days, n8n flows, Claude Code, Cowork. I've never been stuck at L1, so I'm not going to pretend I had some big conversion moment. The trap I'm describing is what I keep watching other marketers fall into.
-
-Rand Fishkin, in a [November 2025 Lunio interview](https://www.lunio.ai/blog/rand-fishkins-marketing-strategy), called AI tools "a spicy autocomplete." Volume goes up. Ceiling stays flat. You produce more bland posts faster.
+I've tried to be at the frontier the whole time. Custom GPTs from the early days, n8n flows, Claude Code, Cowork. I've never been stuck at L1, so I'm not going to pretend I had some big conversion moment. The trap I'm describing is what I keep watching other marketers fall into.
 
 The L1 trap isn't that the output is bad. It's that you stop noticing how much of your day is still copy-paste. You're a courier between a chat window and your CMS.
 
 ## What Level 4 actually looks like
 
-I've built four L4 systems for my own marketing over the last two months. Not because I'm a developer (I'm not). Because Claude in plan mode lets non-engineers spec real software.
+I've built four advanced systems for my own marketing over the last two months.
 
-**LinkedIn Planner.** Express + SQLite + the Claude API. Five post categories rotate weekly: product marketing, last-week lesson, UX law, story plus marketing lesson, random marketing topic. Each category has its own skill. The system reads the last five approved drafts before writing the next one, so it gets sharper as it runs. No hashtags. Approval triggers automatic infographic generation. I write nothing from scratch. I approve or reject. (More on the why behind the format in [my LinkedIn for B2B founders piece](/blog/linkedin-for-b2b-saas-founders).)
+**LinkedIn Planner.** Express + SQLite + the Claude API. Five post categories rotate weekly: product marketing, last-week lesson, UX law, story plus marketing lesson, random marketing topic. Each category has its own skill. The system reads the last five approved drafts before writing the next one, so it gets sharper as it runs. Approval triggers automatic infographic generation. I write nothing from scratch. I approve or reject. (More on the why behind the format in [my LinkedIn for B2B founders piece](/blog/linkedin-for-b2b-saas-founders).)
 
-**Blog Pipeline.** Five agents in sequence: brief, research, write, review, interview. I ran it on leaf 4 ("the do-everything trap") on 24 April 2026. The research agent pulled the ONAH and Sophie story, my Sales Navigator confession, the Peter Thiel single-channel quote, April Dunford on positioning, the ~80% stat on pre-seed traction coming from one channel. The writer produced 1,650 words in one shot. The reviewer caught five craft issues I'd have missed. The interview agent asked me five sharp questions to fill gaps. I approved at every stage. (And yes: this very post you're reading came out of that pipeline. Meta enough. The full architecture is in [how to build a content engine](/blog/how-to-build-a-content-engine).)
+**Blog Pipeline.** Five agents in sequence: brief, research, write, review, interview. I ran it on article 4 ("the do-everything trap") on 24 April 2026. The research agent pulled the ONAH and Sophie story, my Sales Navigator confession, the Peter Thiel single-channel quote, April Dunford on positioning, the ~80% stat on pre-seed traction coming from one channel. The writer produced 1,650 words in one shot. The reviewer caught five craft issues I'd have missed. The interview agent asked me five sharp questions to fill gaps. I approved at every stage. (And yes: this very post you're reading came out of that pipeline. Meta enough. The full architecture is in [how to build a content engine](/blog/how-to-build-a-content-engine).)
 
-**GTM Dashboard.** Started life as a Mistral Le Chat agent for ICP, positioning and messaging. Mid-conversation, the chat suggested a connected flow: customer transcripts feed ICP, ICP feeds positioning, positioning feeds messaging. I took the design to Claude in plan mode and got a Flask app back instead of the cloud-and-Zapier sprawl I was about to commit to. In April I added multi-brand support: Willow, ZYGO, Very Klear. Assets are composable skills with examples per brand. (The messaging output follows the structure in [how to write a messaging guide](/blog/how-to-write-a-messaging-guide).)
+**GTM Dashboard.** Started life as a Mistral Le Chat agent for ICP, positioning and messaging. Mid-conversation, the chat suggested a connected flow: customer transcripts feed ICP, ICP feeds positioning, positioning feeds messaging. I took the design to Claude in plan mode and got a Flask app back instead of the cloud-and-Zapier sprawl I was about to commit to. In April, I added multi-brand support: Willow, ZYGO, Very Klear, etc. Assets are composable skills with examples per brand. (The messaging output follows the structure in [how to write a messaging guide](/blog/how-to-write-a-messaging-guide).)
 
-**Personal Marketing Assistant.** Built in 30 minutes on 2 April 2026. Chat UI with access to my Obsidian vault, calendar, client profiles, and the three systems above. Two weeks later, on 16 April, I wrote in my notes: "A 15-line prompt replaced my local RAG. Do you get the irony." Claude's desktop app shipped features that did roughly what my custom build did, and made it redundant. I retired it. Lesson: build to learn, not to keep.
-
-The Willow proof point matters more than any of these in isolation. On 17 April 2026 I transferred the same 5-agent pipeline to Willow with Notion and Webflow integration. Added case study, Dutch translation and comparison agents. First result was good enough to ship. L4 transfers across brands. That's what makes it a system instead of a hack.
+**Personal Marketing Assistant.** Built in 30 minutes on 2 April 2026. Chat UI with access to my Obsidian vault, calendar, client profiles, and the three systems above. Two weeks later, Claude's desktop app shipped features that did roughly what my custom build did, and made it redundant. I retired it. Lesson: build to learn, not to keep.
 
 ## When Level 5 makes sense, and when it doesn't
 
-I learned the rule the hard way. A few months back I used n8n to automate blog post rewrites for Willow. Their old posts had been updated, lost rankings, and needed reshaping into a question-answer format. I let the automation run. The results came back: just normal. Nothing better, nothing worse. A big time investment for a flat outcome. I'm now redoing the same project with a much more advanced approach and more human in the loop. Excited for that one.
+Some things can be fully automated, others can't. I learned the rule the hard way. Last year, I used n8n to automate blog post rewrites for Willow. Their old posts had been outdated, lost rankings, and needed reshaping into a question-answer format which was supposedly better for GEO. I let the automation run. The results came back: just normal. Some better, some worse, mostly still the same. I'm now redoing the same project with a much more advanced approach and more human in the loop. Early results are much more promising with already an increase in clicks and impressions.
 
 That's the lesson in one bad experiment. L5 is a choice with a clean decision rule:
 
@@ -110,13 +106,11 @@ For reference, my current cost of running at L4 across four systems is €100-15
 
 Run the workflow for four weeks before you judge it. The L4 systems above all looked clunky in week one. By week three the system was learning from approved outputs and the quality jump was obvious. Most people kill the experiment in week two and conclude AI doesn't work for their use case. They quit before the compounding starts.
 
-And don't try to do every channel at once. [Pick one workflow that compounds](/blog/do-everything-trap-multi-channel-marketing) and resist the urge to fork.
-
 ## The uncomfortable summary
 
 If your only AI workflow is open chat, ask question, paste answer, you're not behind on AI. You just haven't started.
 
-The marketers pulling ahead this year aren't the ones using AI more. They're the ones who moved up the ladder. L4 is where you stop being the bottleneck. L5 is a tool you reach for when the volume × damage math says yes, and not before.
+The marketers pulling ahead this year are the ones who moved up the ladder. L4 is where you stop being the bottleneck. L5 is a tool you reach for when the volume × damage math says yes, and not before.
 
 If you're still operating at L1 in mid-2026, take this seriously: unless your creative edge is genuinely rare, you don't have one. The role is folding into the marketing engineer. Strategy and execution in the same chair. The marketers who climb the ladder this year keep their seat. The ones who stay at L1 are competing with the model on the model's home turf.
 
